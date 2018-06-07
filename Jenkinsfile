@@ -21,7 +21,7 @@ ls'''
     }
     stage('Upload to Artifactory') {
       steps {
-        sh 'curl -uadmin:APBcyn5vVoefw71T -T /tmp/jenkins/workspace/Shayki_master-KKIFYO5SNM5S43SC4PZRON5JVDZNLUGBTT6QRAJUESJJW2LMXOLA "http://35.205.54.43:8081/artifactory/generic-local/shayki"'
+        sh 'curl -uadmin:APBcyn5vVoefw71T -T /tmp/jenkins/workspace/Shayki_master-KKIFYO5SNM5S43SC4PZRON5JVDZNLUGBTT6QRAJUESJJW2LMXOLA/nodejs-demoapp.zip "http://35.205.54.43:8081/artifactory/generic-local/shayki"'
       }
     }
     stage('Deploy Dev') {
