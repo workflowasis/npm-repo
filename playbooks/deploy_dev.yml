@@ -18,7 +18,7 @@
         dest: /tmp/shayki/
     - name: Unarchive Zip file
       unarchive:
-        src: /tmp/nodejs-demoapp.zip
+        src: /tmp/shayki/nodejs-demoapp.zip
         dest: /tmp/shayki
         remote_src: yes
     
