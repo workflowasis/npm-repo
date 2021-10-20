@@ -19,7 +19,7 @@ jobs:
       - name: echo secret
         run: echo ${{secrets.SECRET_DEMO}}
   test-call-reusable-workflow:
-    uses: npm-repo/.github/workflows/reusable_workflow.yml@main
+    uses: workflowasis/npm-repo/.github/workflows/reusable_workflow.yml@main
     with:
       ring: mona
     secrets:
