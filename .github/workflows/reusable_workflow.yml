@@ -17,13 +17,11 @@ on:
 
 jobs:
   example_job:
-    name:
-    runs-on:
+    name: print_test
+    runs-on: ubuntu-latest
     steps:
-      - uses: ./.github/actions/my-action@v1
-        with:
-          username: ${{ inputs.username}}
-          token: ${{ secrets.token }}
+      - name: Run a one-line script
+        run: echo ${{ inputs.ring }}
           
 # caller example
 # call-workflow-passing-data:
