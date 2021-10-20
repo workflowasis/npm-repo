@@ -8,10 +8,10 @@ on:
         default: 'ring-0'
         required: false
         type: string
-       environment:
+      environment:
         required: false
         type: string
-     secrets:
+    secrets:
       token:
         required: false
 
