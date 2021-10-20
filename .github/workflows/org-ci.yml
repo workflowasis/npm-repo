@@ -24,4 +24,9 @@ jobs:
       ring: mona
     secrets:
         token: ${{ secrets.TOKEN }}
-    
+  test-call-reusable-workflow2:
+    uses: workflowasis/.github/workflow-templates/reusable_workflow.yml
+    with:
+      ring: mona
+    secrets:
+        token: ${{ secrets.TOKEN }}    
