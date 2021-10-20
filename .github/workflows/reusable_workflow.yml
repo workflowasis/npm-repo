@@ -25,10 +25,10 @@ jobs:
           username: ${{ inputs.username}}
           token: ${{ secrets.token }}
           
-// caller example
-// call-workflow-passing-data:
-//  uses: .github/workflows/resuable_workflow.yml@main
-//  with:
-//    username: mona
-//  secrets:
-//    token: ${{ secrets.TOKEN }}
+# caller example
+# call-workflow-passing-data:
+#  uses: .github/workflows/resuable_workflow.yml@main
+#  with:
+#    username: mona
+#  secrets:
+#    token: ${{ secrets.TOKEN }}
